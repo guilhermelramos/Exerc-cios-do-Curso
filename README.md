@@ -8,8 +8,7 @@ Repositório com exercícios e projetos práticos do curso de Python, organizado
 
 ---
 
-## 📁 Estrutura do Repositório
-
+## 📁 Estrutura
 ```
 📦 Exerc-cios-do-Curso
 ├── 📂 Mundo_01 - Fundamentos
