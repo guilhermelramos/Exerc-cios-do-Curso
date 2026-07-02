@@ -1,20 +1,30 @@
-r1 = float(input("Insira o tamanho da primeira reta: "))
-r2 = float(input("Insira o tamanho da segunda reta: "))
-r3 = float(input("Insira o tamanho da terceira reta: "))
+from random import choice
 
-triangulo = ""
+opcoes = ["Pedra", "Tesoura", "Papel"]
 
-if r1 == r2 == r3:
-    triangulo = "EQUILÁTERO"
+pc = choice(opcoes)
 
-elif r1 == r2 != r3 or r2 == r3 != r1 or r1 == r3 != r2:
-    triangulo = "ISÓSCELES"
+print("-=-" * 25)
+print("""
+Selecione oq vc irá jogar:
+[ 0 ] Pedra
+[ 1 ] Tesoura
+[ 2 ] Papel""")
+print("-=-" * 25)
 
-elif r1 != r2 != r3:
-    triangulo = "ESCALENO"
+jogada_num = int(input("Selecione a sua jogada: "))
 
+jogada = opcoes[jogada_num]
 
-if r1 < r2 + r3 and r2 < r1 + r3 and r3 < r1 + r2:
-    print("O triangulo é um {}.".format(triangulo))
+print(f"A sua escolha é {jogada}, e a do computador é {pc}.")
+
+if jogada == pc:
+    print("Empatou")
+elif (
+    (jogada == "Pedra" and pc == "Tesoura")
+    or (jogada == "Tesoura" and pc == "Papel")
+    or (jogada == "Papel" and pc == "Pedra")
+):
+    print("Vc ganhou")
 else:
-    print("Não são compativeis! Impossivel de formar um triângulo!")
+    print("Vc perdeu")
