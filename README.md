@@ -10,7 +10,7 @@ Repositório com exercícios e projetos práticos do curso de Python, organizado
 
 ## 📁 Estrutura
 ```
-📦 Exerc-cios-do-Curso
+📦 Exercios-do-Curso
 ├── 📂 Mundo_01 - Fundamentos
 │   ├── 📂 Aula09 - Manipulação de Strings
 │   └── 📂 Aula10 - Condicionais
@@ -18,11 +18,12 @@ Repositório com exercícios e projetos práticos do curso de Python, organizado
 ├── 📂 Mundo_02 - Intermediário
 │   ├── 📂 Aula12 - Condicionais Aninhadas
 │   │   ├── ex036.py  → Empréstimo Bancário
-│   │   ├── ex042.py  → Formador de Triângulo
+│   │   ├── ex042.py  → Pedra, Papel, Tesoura
 │   │   └── ex043.py  → Calculadora de IMC
 │   └── 📂 Aula13 - Estruturas de Repetição
 │       ├── ex052.py  → Verificador de Número Primo
 │       └── ex053.py  → Verificador de Palíndromo
+├── requirements.txt
 └── README.md
 ```
 
@@ -32,12 +33,12 @@ Repositório com exercícios e projetos práticos do curso de Python, organizado
 
 | Emoji | Nome | Arquivo |
 |-------|------|---------|
-| 🎮 | **Pedra, Papel, Tesoura** | `ex042.py` |
-| 🔢 | **Verificador de Número Primo** | `ex052.py` |
-| 🏥 | **IMC com Cores** | `ex043.py` |
-| 💰 | **Empréstimo Bancário** | `ex036.py` |
-| 🎯 | **Jogo de Adivinhação** | `ex028.py` |
-| 📝 | **Verificador de Palíndromo** | `ex053.py` |
+| 🎮 | **Pedra, Papel, Tesoura** | `Mundo_02 - Intermediário/Aula12 - Condicionais Aninhadas/ex042.py` |
+| 🔢 | **Verificador de Número Primo** | `Mundo_02 - Intermediário/Aula13 - Estruturas de Repetição/ex052.py` |
+| 🏥 | **IMC com Cores** | `Mundo_02 - Intermediário/Aula12 - Condicionais Aninhadas/ex043.py` |
+| 💰 | **Empréstimo Bancário** | `Mundo_02 - Intermediário/Aula12 - Condicionais Aninhadas/ex036.py` |
+| 🎯 | **Jogo de Adivinhação** | `Mundo_01 - Fundamentos/Aula10 - Condicionais/ex028.py` |
+| 📝 | **Verificador de Palíndromo** | `Mundo_02 - Intermediário/Aula13 - Estruturas de Repetição/ex053.py` |
 
 ---
 
@@ -45,8 +46,8 @@ Repositório com exercícios e projetos práticos do curso de Python, organizado
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/guilhermelramos/Exerc-cios-do-Curso.git
-   cd Exerc-cios-do-Curso
+   git clone https://github.com/guilhermelramos/Exercios-do-Curso.git
+   cd Exercios-do-Curso
    ```
 
 2. Instale as dependências (se necessário):
@@ -56,7 +57,7 @@ Repositório com exercícios e projetos práticos do curso de Python, organizado
 
 3. Execute qualquer exercício:
    ```bash
-   python ex052.py
+   python "Mundo_02 - Intermediário/Aula13 - Estruturas de Repetição/ex052.py"
    ```
 
 ---
@@ -67,7 +68,7 @@ Repositório com exercícios e projetos práticos do curso de Python, organizado
 - **`unidecode`** — utilizado no verificador de palíndromo (`ex053.py`)
 
 ```bash
-pip install unidecode
+pip install -r requirements.txt
 ```
 
 ---
