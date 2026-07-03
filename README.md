@@ -22,7 +22,8 @@ Repositório com exercícios e projetos práticos do curso de Python, organizado
 │   │   └── ex043.py  → Calculadora de IMC
 │   └── 📂 Aula13 - Estruturas de Repetição
 │       ├── ex052.py  → Verificador de Número Primo
-│       └── ex053.py  → Verificador de Palíndromo
+│       ├── ex053.py  → Verificador de Palíndromo
+│       └── ex056.py  → Analisador Completo
 ├── requirements.txt
 └── README.md
 ```
@@ -39,6 +40,7 @@ Repositório com exercícios e projetos práticos do curso de Python, organizado
 | 💰 | **Empréstimo Bancário** | `Mundo_02 - Intermediário/Aula12 - Condicionais Aninhadas/ex036.py` |
 | 🎯 | **Jogo de Adivinhação** | `Mundo_01 - Fundamentos/Aula10 - Condicionais/ex028.py` |
 | 📝 | **Verificador de Palíndromo** | `Mundo_02 - Intermediário/Aula13 - Estruturas de Repetição/ex053.py` |
+| 👥 | **Analisador Completo** | `Mundo_02 - Intermediário/Aula13 - Estruturas de Repetição/ex056.py` |
 
 ---
 
